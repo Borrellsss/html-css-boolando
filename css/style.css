@@ -10,13 +10,6 @@ body {
 }
 
 /* DEBUG */
-.products {
-    background-color: aqua;
-}
-
-.card {
-    border: 3px solid red;
-}
 
 /* COMMON */
 .container {
@@ -96,13 +89,14 @@ header .container {
 
 /* MAIN */
 .products {
-    margin: 90px 0 40px;
-    flex-wrap: nowrap;
+    margin-top: 90px;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .card {
-    width: calc(98% / 3);
+    width: calc(97% / 3);
+    margin-bottom: 40px;
 }
 
 .img-side {
