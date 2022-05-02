@@ -48,6 +48,7 @@ header {
     font-weight: 700;
     color: white;
     background-color: #ff6900;
+    box-shadow: 0 1px 3px grey;
     position: fixed;
     left: 0;
     top: 0;
@@ -100,6 +101,10 @@ header .container {
 .img-side {
     color: white;
     position: relative;
+}
+
+.img-side:hover {
+    box-shadow: 0 0 5px grey;
 }
 
 .img-side:hover .hidden {
