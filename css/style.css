@@ -9,8 +9,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* DEBUG */
-
 /* COMMON */
 .container {
     width: 75%;
@@ -160,4 +158,46 @@ header .container {
 }
 .old-prc {
     text-decoration: line-through;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px 0;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+.footer-flex-item {
+    justify-content: space-between;
+}
+
+.container .footer-flex-item:first-child {
+    padding-bottom: 5px;
+}
+
+.company {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.important-info {
+    font-size: 10px;
+}
+
+.important-info li {
+    padding-right: 8px;
+}
+
+.socials li {
+    padding-left: 8px;
+}
+
+.find-us {
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.socials {
+    font-size: 13px;
 }
